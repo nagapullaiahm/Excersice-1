@@ -22,8 +22,8 @@ Create an outputs.tf to display cluster details after deployment.
 Step 5: Initialize and Apply Terraform Configuration
 Run the following commands to initialize and deploy the cluster:
 
-# terraform init
-# terraform apply -var="project_id=<YOUR_PROJECT_ID>" -var="region=us-west1"
+terraform init
+terraform apply -var="project_id=<YOUR_PROJECT_ID>" -var="region=us-west1"
 
 Explanation of Auto-scaling
 The second node pool (autoscale-pool) is set up with auto-scaling parameters:
